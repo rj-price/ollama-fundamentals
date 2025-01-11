@@ -36,3 +36,9 @@ Create new model and interact via Ollama library
 ```bash
 python my_files/test-3.py
 ```
+
+### Grocery Categoriser
+Use Python with Ollama library to import and catergorise a grocery list.
+```bash
+python my_files/grocery_categoriser.py
+```

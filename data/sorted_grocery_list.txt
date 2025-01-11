@@ -1,0 +1,79 @@
+Here is the sorted and categorised list:
+
+**Produce:**
+• Apples
+• Bananas
+• Carrots
+• Cucumber
+• Courgette
+• Grapes
+• Lettuce
+• Onions
+• Peas
+• Peppers
+• Potatoes
+• Spinach
+• Tomatoes
+
+**Bakery:**
+• Baps
+• Bread
+• Croissants (not included as they are not a UK term, but rather an international product)
+• Filo pastry
+• Muffins (not included as they are not a standard UK item)
+
+**Dairy:**
+• Butter
+• Cheese
+• Dairy Free cream
+• Eggs
+• Milk
+
+**Meat:**
+• Beef Mince
+• Gammon joint
+• Ham
+• Sausages
+• Salmon
+
+**Beverages:**
+• Almond milk
+• Coffee
+• Coke
+• Ice Cream
+• Juice (Orange, specified as Orange Juice)
+• Milk
+• Olive Oil
+• Tea
+• White wine
+
+**Pantry:**
+• Biscuit packs
+• Bran flakes
+• Cereal
+• Crisps
+• Granola Bars
+• Honey
+• Jam
+• Laundrette products
+• Laundry tablets
+• Mouthwash
+• Peanuts Butter
+• Quorn pieces
+• Quorn sausages
+
+**Cleaning and Household:**
+• Drain Unblocker
+• Washing machine cleaner
+• Washing up liquid
+
+**Miscellaneous:**
+• Chips (Fries)
+• Dishwasher tablets
+• Toilet roll
+
+**Toothcare:**
+• Toothpaste
+• Toothbrush cleaner (mentioned as shampoo, but not included in the list)
+
+**Total number of items:** 54
