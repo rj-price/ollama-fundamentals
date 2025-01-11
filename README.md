@@ -42,3 +42,8 @@ Use Python with Ollama library to import and catergorise a grocery list.
 ```bash
 python my_files/grocery_categoriser.py
 ```
+
+Rewrite to create an album categoriser.
+```bash
+python my_files/music_categoriser.py
+```

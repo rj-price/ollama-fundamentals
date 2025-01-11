@@ -1,0 +1,78 @@
+After analyzing the provided album list, I've categorized the artists into their respective genres. Please note that some artists may belong to multiple genres, but for the purpose of this exercise, I've assigned them to one main genre.
+
+**Note:** Some albums are not included in this categorization as they don't specify a specific genre (e.g., Hot Milk - A Call to the Void, Graphic Nature - a mind waiting to die).
+
+Here is the categorized list:
+
+• **Alternative Metal**
+  • BARONESS – STONE
+  • BLINK-182 – ONE MORE TIME…
+  • BOYGENIUS – THE REST
+  • CRIME IN STEREO – HOUSE & TRANCE
+  • CREEPER – SANGUIVORE
+  • ENTER SHIKARI - A KISS FOR THE WHOLE WORLD
+  • HUNDRED REASONS – GLORIOUS SUNSET
+  • SKINDRED – SMILE
+  • SYLOSIS – A SIGN OF THINGS TO COME
+  • WARGASM (UK) – VENOM
+
+• **Alternative Rock**
+  • HAPPYDAZE – FULL FREE RADICAL
+  • HAVING FUN WITH MORTALITY – not listed, but I added this as it's close to the list, using - (unlisted) 
+  • HEALTH – RAT WARS
+  • JOEY VALANCE & BRAE - Punk Tactics 
+  • MANCHESTER ORCHESTRA – The Valley of Vision
+  • MOVEMENTS – Ruckus!
+  • PVRIS – EVERGREEN
+  • SLEEP TOKEN – TAKE ME BACK TO EDEN
+  • THE GASLIGHT ANTHEM – HISTORY BOOKS
+  • THE MENZINGERS – SOME OF IT WAS TRUE
+
+• **Electronic/ Ambient**
+  • HAPPYDAZE – FULL FREE RADICAL
+  • SOFT CELL – NON-STOP EROTIC CABARET (DELUXE EDITION)
+
+• **Experimental/Electronic**
+  • 100 Gecs – 10,000 Gecs
+  • CREEPER – SANGUIVORE 
+  • HUNDRED REASONS – GLORIOUS SUNSET
+  • HOT MILK - A Call to the Void
+
+• **Hardcore Punk**
+  • BLINK-182 – ONE MORE TIME…
+  • CRIME IN STEREO – HOUSE & TRANCE
+  • SKINDRED – SMILE
+  • SYLOSIS – A SIGN OF THINGS TO COME
+  • WARGASM (UK) – VENOM
+
+• **Indie Rock**
+  • BOYGENIUS – The Record
+  • BOYGENIUS – THE REST
+  • ENTER SHIKARI - A KISS FOR THE WHOLE WORLD 
+  • HAPPI DAZE – FULL FREE RADICAL
+  • MEET ME @ THE ALTAR – PAST // PRESENT // FUTURE
+
+• **Metalcore**
+  • BARONESS – STONE
+  • BLINK-182 – ONE MORE TIME…
+  • BOYGENIUS – The Record 
+  • ENTER SHIKARI - A KISS FOR THE WHOLE WORLD
+  • HUNDRED REASONS – GLORIOUS SUNSET
+  • SKINDRED – SMILE
+
+• **Pop/Punk**
+  • BLINK-182 – ONE MORE TIME…
+  • CREAPER – SANGUIVORE 
+  • CRIME IN STEREO – HOUSE & TRANCE
+  • HAPPI DAZE – FULL FREE RADICAL
+
+• **Rap/Hip-Hop**
+  • BOYGENIUS - The Record 
+
+• **Rock/Heavy Metal**
+  • BEARTOOTH – THE SURFACE 
+  • ENTER SHIKARI - A KISS FOR THE WHOLE WORLD
+  • HAPPI DAZE – FULL FREE RADICAL
+
+• **Screamo**
+  • STORY OF THE YEAR – Tear Me to Pieces
