@@ -47,3 +47,20 @@ Rewrite to create an album categoriser.
 ```bash
 python my_files/music_categoriser.py
 ```
+
+### Retrieval-Augmented Generation (RAG)
+Activate virutal environment and install required libraries.
+```bash
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Using LangChain with our LRG1 preprint.
+```bash
+python my_files/rag/pdf-rag.py
+```
+
+Run interactive GUI using Streamlit.
+```bash
+streamlit run my_files/rag/pdf-rag-streamlit.py
+```
