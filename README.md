@@ -64,3 +64,11 @@ Run interactive GUI using Streamlit.
 ```bash
 streamlit run my_files/rag/pdf-rag-streamlit.py
 ```
+
+---
+
+## ADDITIONAL
+Alternative simple method to query model using Ollama library.
+```bash
+python ollama_query.py
+```
