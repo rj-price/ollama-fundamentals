@@ -78,3 +78,7 @@ Iterate through models with the same prompt to compare outputs.
 python model_comp.py
 ```
 
+Interactive prompt input.
+```bash
+python prompt_input.py
+```
