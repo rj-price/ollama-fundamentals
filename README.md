@@ -72,3 +72,9 @@ Alternative simple method to query model using Ollama library.
 ```bash
 python ollama_query.py
 ```
+
+Iterate through models with the same prompt to compare outputs.
+```bash
+python model_comp.py
+```
+
