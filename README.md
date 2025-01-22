@@ -65,6 +65,18 @@ Run interactive GUI using Streamlit.
 streamlit run my_files/rag/pdf-rag-streamlit.py
 ```
 
+## Bonus Section
+[AI Recruiter Agency](https://github.com/pdichone/swarm-writer-agents.git)
+Activate virutal environment and install required libraries.
+```bash
+source venv/bin/activate
+pip install streamlit_option_menu openai pdfminer.six
+```
+On laptop, change model to `llama3.2:1b` in `base_agent.py` and `profile_enhancer_agent.py`.
+```bash
+streamlit run ai-recruiter-agency/app.py
+```
+
 ---
 
 ## ADDITIONAL

@@ -1,0 +1,43 @@
+2025-01-22 16:35:02,103 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-01-22 16:35:02,105 - AI_Recruiter - ERROR - Error processing resume: Error code: 404 - {'error': {'message': 'model "llama2.3:1b" not found, try pulling it first', 'type': 'api_error', 'param': None, 'code': None}}
+2025-01-22 16:35:02,106 - AI_Recruiter - ERROR - Processing error: Error code: 404 - {'error': {'message': 'model "llama2.3:1b" not found, try pulling it first', 'type': 'api_error', 'param': None, 'code': None}}
+Traceback (most recent call last):
+  File "/home/jordan/Documents/ollama/ollama-fundamentals/ai-recruiter-agency/app.py", line 128, in main
+    result = asyncio.run(process_resume(file_path))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/jordan/Documents/ollama/ollama-fundamentals/ai-recruiter-agency/app.py", line 58, in process_resume
+    return await orchestrator.process_application(resume_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jordan/Documents/ollama/ollama-fundamentals/ai-recruiter-agency/agents/orchestrator.py", line 46, in process_application
+    extracted_data = await self.extractor.run(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jordan/Documents/ollama/ollama-fundamentals/ai-recruiter-agency/agents/extractor_agent.py", line 27, in run
+    extracted_info = self._query_ollama(raw_text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jordan/Documents/ollama/ollama-fundamentals/ai-recruiter-agency/agents/base_agent.py", line 23, in _query_ollama
+    response = self.ollama_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jordan/Documents/ollama/ollama-fundamentals/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jordan/Documents/ollama/ollama-fundamentals/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 850, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/jordan/Documents/ollama/ollama-fundamentals/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1283, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jordan/Documents/ollama/ollama-fundamentals/venv/lib/python3.12/site-packages/openai/_base_client.py", line 960, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/jordan/Documents/ollama/ollama-fundamentals/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1064, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'model "llama2.3:1b" not found, try pulling it first', 'type': 'api_error', 'param': None, 'code': None}}

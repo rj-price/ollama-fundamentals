@@ -1,0 +1,2 @@
+2025-01-22 16:37:15,765 - openai._base_client - INFO - Retrying request to /chat/completions in 0.432995 seconds
+2025-01-22 16:37:16,355 - openai._base_client - INFO - Retrying request to /chat/completions in 0.820506 seconds
